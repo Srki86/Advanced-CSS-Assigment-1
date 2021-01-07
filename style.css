@@ -1,0 +1,39 @@
+
+a {
+    color: green;
+}
+a[target] {
+    color: red;
+ }
+
+ #second-div p :nth-child(1) {
+     color: red;
+ }
+
+ #second-div :nth-child(2) {
+    color: blue;
+}
+
+#second-div :nth-child(3) {
+    color: red;
+}
+
+#second-div :nth-child(4) {
+    color:blue;
+}
+
+#second-div :nth-child(5) {
+    color: red;
+}
+
+#first-div> p:after {
+        content: " NEW";
+        color: yellow;
+        
+    }
+
+p:nth-of-type(3):hover {
+    font-style: italic;
+}
+
+
